@@ -1,12 +1,13 @@
 .navbar {
   background-color: gray;
   height: 80px;
+  margin-bottom: 0px;
 }
 
-.navbar-brand {
+.navbar-brand a {
   font-size: 50px;
-  padding: 30px 70px 30px 30px;
-  color: black;
+  padding: 10px 70px 10px 30px;
+  color: white;
 }
 
 #myNavbar {
@@ -14,7 +15,7 @@
 }
 
 #banner {
-  background-image: url("../images/5.jpeg");
+  background-image: url("../images/pic1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -24,7 +25,7 @@
   padding-bottom: 300px;
 }
 
-#numbers {
+#number {
   width: 300px;
   height: 50px;
   background-color: gray;
@@ -33,4 +34,16 @@
 #button {
   height: 50px;
   width: auto;
+}
+
+#result {
+  font-size: 60px;
+  color: blue;
+  z-index: -1;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+  margin: 0px;
 }
