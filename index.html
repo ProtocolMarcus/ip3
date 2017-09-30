@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Indie+Flower|Josefin+Slab|Lobster|Tangerine" rel="stylesheet">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Pingpong Game</title>
 </head>
@@ -17,21 +16,21 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a class="navbar-brand" href="#">PINGPONG</a>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="color: white">PINGPONG</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Go Pro</a></li>
+          <li><a href="#" style="color: black">About</a></li>
+          <li><a href="#" style="color: black">Go Pro</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="#" style="color: black"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#" style="color: black"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
       </div>
     </div>
@@ -39,24 +38,23 @@
 
   <div id="banner">
     <div class="text-center">
-      <h3>GET LUCKY AND ENTER A NUMBER</h3>
-
+      <h3>GET LUCKY! <br> ENTER A NUMBER NOW</h3>
       <form class="form-inline" role="form">
         <form id="pingpong">
           <div class="form-group">
-            <input id="number" type="text">
+            <input id="user-number" type="text">
           </div>
-          <button type="submit" id="click" class="btn">Ping Pong!</button></form>
+          <button type="submit" id="click" class="btn">SEND</button>
+        </form>
       </form>
-      </p>
-      <div>
+
+      <!-- form output -->
+      <div class="output">
         <ul id="result">
 
         </ul>
       </div>
     </div>
-
-  </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
